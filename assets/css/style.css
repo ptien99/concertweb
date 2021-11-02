@@ -185,7 +185,7 @@ html {
     margin-top: 46px;
     padding-top: 50%;
     /* 50% chiều ngang của chính nó */
-    background: url('../img/slider/slider1.jpg') top center / cover no-repeat;
+    background: url('../img/port/tien.png') top center / cover no-repeat;
 }
 
 #slider .text-content {
@@ -243,6 +243,15 @@ html {
     opacity: 0.6;
 }
 
+#content .section-sub-heading1 {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+#content .section-sub-heading2 {
+    margin-top: 25px;
+    font-size: 20px;
+}
 
 #content .about-text {
     margin-top: 25px;
@@ -256,11 +265,10 @@ html {
     margin-top: 48px;
 }
 
-#content .album-item {
-    float: left;
-    width: calc(100% / 3); 
-    text-align: center; }
-
+/* #content .album-item { */
+    /* float: left;
+    width: calc(100% / 3); */
+    /* text-align: center; */
     /* } */
     /* có ở col col-third text-center nên bỏ */
 
@@ -284,7 +292,7 @@ html {
     background-color: #fff;
     margin-top: 39px;
     list-style: none;
-    margin-top: 32px;
+    margin-top: 16px;
 }
 
 .tickets-list li {
@@ -294,16 +302,20 @@ html {
     border-bottom: 1px solid #ddd;
 }
 
-.tickets-list .sold-out {
-    background-color: red;
-    color: #fff;
+.tickets-list .edu {
+    
+    color: #757575;
     font-size: 15px;
-    padding: 3px 4px;
-    margin-left: 16px;
+    padding: 11px 16px;
     border-bottom: 1px solid #ddd;
 }
 
-
+.tickets-list .skill {
+    color: #757575;
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+}
 
 .tickets-list .quantity {
     background-color: #000;
@@ -323,15 +335,14 @@ html {
     /* margin-right: -8px; */
     /* viết gọn: margin: 32px -8px 0 */
     /* padding-bottom: 48px; */
-    margin: 32px -8px 0;
+    margin-top: 16px;
     /* viết lại */
 }
 
-.place-item {
-    width: calc(100% / 3);
-    float: left;
-    padding: 0 8px;
-}
+/* .place-item { */
+    /* width: calc(100% / 3); */
+    /* float: left; */
+    /* padding: 0 8px; */
     /* kh cần nữa vì nó được thừa hưởng từ class col và col-third */
 /* } */
 
@@ -559,12 +570,13 @@ html {
 }
 
 #footer {
+   margin-top: -64px;
     padding: 64px 16px;
     text-align: center;
 }
 
 #footer .social {
-    margin-top: 64px;
+    margin-top: 16px;
     font-size: 24px;
 }
 
